@@ -1,0 +1,29 @@
+.invalidPage {
+  background-image: url('../images/404.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 80vh;
+  height: 50vh;
+  text-align: center;
+  background-color: #fafafa;
+  padding: 0 0 50px 0;
+  border-radius: 5px;
+  margin: 3% 0 0 25%;
+}
+
+.notFound {
+  font-size: 8rem;
+  color: grey;
+  font-family: 'Roboto Slab', serif;
+}
+
+.invalidURL {
+  font-size: 2rem;
+  font-family: 'Roboto Slab', serif;
+  color: #0062a3;
+}
+
+.redirecting {
+  color: #0062a3;
+}

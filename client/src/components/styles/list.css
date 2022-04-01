@@ -1,0 +1,46 @@
+.list-container {
+  background-image: url('../images/listbg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 10px;
+  height: auto;
+}
+
+.search-bar {
+  float: right;
+  width: 20%;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 1rem;
+  color: grey;
+  border: 2px solid #00dec8;
+  margin-top: 10px;
+  margin-right: 5%;
+}
+
+hr {
+  width: 95%;
+  margin-top: 1%;
+}
+
+.grid-container {
+  background: transparent;
+  margin: 10px 20px;
+  padding: 10px 20px;
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 10px;
+}
+
+.empty-list {
+  margin-left: 40%;
+  font-size: 1.5rem;
+  font-weight: 500;
+  font-family: 'Roboto Slab', serif;
+  color: rgb(255, 50, 84);
+}
+
+.all {
+  position: absolute;
+}

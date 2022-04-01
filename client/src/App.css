@@ -1,0 +1,13 @@
+body {
+  margin: 10px 30px;
+  padding: 0px;
+  background-color: #fafafa;
+}
+
+@import url('./components/styles/shortener.css');
+
+@import url('./components/styles/list.css');
+
+@import url('./components/styles/listData.css');
+
+@import url('./components/styles/redirect.css');

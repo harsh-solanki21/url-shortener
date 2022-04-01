@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&family=Roboto+Slab:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap');
+
+.container {
+  background-image: url('../images/urlbg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 600px;
+  padding-top: 5px;
+  border-radius: 10px;
+}
+
+.header {
+  font-family: 'Berkshire Swash', cursive;
+  color: dodgerblue;
+  -webkit-text-stroke: 0.5px blue;
+  font-size: 2.5rem;
+  padding-left: 2%;
+  cursor: pointer;
+}
+
+.list-btn {
+  float: right;
+  margin-right: 2%;
+  margin-top: 10px;
+  margin-left: -40px;
+  padding: 12px 15px;
+  border-radius: 5px;
+  background-color: white;
+  color: #00dec8;
+  font-size: 1rem;
+  font-weight: 600;
+  border: 2px solid #00dec8;
+  cursor: pointer;
+  transition-duration: 0.2s;
+}
+
+.list-btn:hover {
+  background-color: #00dec8;
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.subcontainer {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.title {
+  color: #2874a6;
+  -webkit-text-stroke: 0.5px blue;
+  font-size: 3rem;
+  font-family: 'Roboto Slab', serif;
+  margin: 50px 0;
+}
+
+.subtitle {
+  color: #00628c;
+  font-size: 1.5rem;
+  font-family: 'Inconsolata', monospace;
+}
+
+.url {
+  width: 40%;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 1rem;
+  border: 2px solid #009ee0;
+}
+
+.shrink-btn {
+  background-color: dodgerblue;
+  margin-left: -80px;
+  padding: 15px 15px;
+  border-radius: 0 5px 5px 0;
+  color: white;
+  border: none;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition-duration: 0.2s;
+}
+
+.shrink-btn:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.error {
+  color: red;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.alias {
+  margin-top: 10px;
+  width: 20%;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 1rem;
+  border: 2px solid #009ee0;
+}
+
+.form {
+  margin-top: 30px;
+}
+
+.shrink-container {
+  position: absolute;
+  width: 80%;
+  height: auto;
+  z-index: 1;
+  margin-left: 8%;
+  margin-top: -13%;
+  background-color: white;
+  border: none;
+  border-radius: 2px;
+  padding: 10px 20px;
+}
+
+.recent-text {
+  font-size: 1rem;
+  color: rgb(255, 93, 120);
+  font-weight: 500;
+  font-family: 'Roboto Slab', serif;
+}
